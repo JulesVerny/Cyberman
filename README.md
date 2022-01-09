@@ -15,7 +15,7 @@ The Cyberman has to Pick up the Rudium probe from the Yellow Platform, and Place
 
 ### Setup
 Actions: The Cyberman Actions are NOOP(Idle), Move Forward, Rotate Left, Rotate Right, Pickup and Place Down.  These are arranged as  single Branch Discret Action. 
-Observations: The Cyberman is set up as an ML Agent, with Ray perception Sensors for the Dalek, Walls, Probe and Goal Area. The Cyberman also has boolean Indicators, of whetehr the Dalek can see him, Is he currnelty holding the Probe, and Can Can he Pickup The Probe.
+Observations: The Cyberman is set up as an ML Agent, with Ray perception Sensors for the Dalek, Walls, Probe and Goal Area. The Cyberman also has boolean Indicators, of whetehr the Dalek can see him, Is he currently holding the Probe, and Can Can he Pickup The Probe.
 
 ![ScreenShot](RaySense.png)
 
@@ -67,7 +67,7 @@ Happy for Any Dicusssion, Comments and Improvements.
 
 I have captured and exported a Unity Package the Cyberman Scene, Scripts, Models etc. I am not so familiar with Unity Package export/ imports, so hopefully this is the most convinient way to import into your Unity Projects.  This can be downladed and imported into Unity, or possibly via the Unity Git import directly by reference to the .json file from the Unity Package Manager.  You will also need to import the Unity ML Agents package to run this(Note this was developed and Tested using Release 18)
 
-I have included the Run63Brain.onnx into the Cyberman configuration. So the final Level 11 Performance should be visible upon Unity Game Runs. Note However that you will have to change the Game Difficulty within the SnartAgent.cs script to demonstrate perfomance at the different Training Levels. Since by default the Game Difficulty is read in from the Acadamy.Instance.Environmental Parameters within every Episode Begin() call. So these calls can be commented out to see performance at different Training Levels. 
+I have included the CyberMan.onnx into the Cyberman configuration. So the final Level 11 Performance should be visible upon Unity Game Runs. Note However that you will have to Uncomment Line 59 GameControl.cs script and assign a TestGameLevel for the GameManager Object within the Scene to demonstrate perfomance at the different Training Levels. Since by default the Game Difficulty is read in from the Acadamy.Instance.Environmental Parameters within every Episode Begin() call.  
 
 The CyberManConfig File has been included as a reference how the Agent is Trained through the use of GAIL  Imitation learning, and Curriculum Learning through a set of Lesson Levels.  The Agent code is also explicitly provided here to understand the Observations, Actions and Rewards details. 
 
