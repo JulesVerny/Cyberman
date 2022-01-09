@@ -71,9 +71,10 @@ I have included the Run63Brain.onnx into the Cyberman configuration. So the fina
 
 The CyberManConfig File has been included as a reference how the Agent is Trained through the use of GAIL  Imitation learning, and Curriculum Learning through a set of Lesson Levels.  The Agent code is also explicitly provided here to understand the Observations, Actions and Rewards details. 
 
-## Acknowdelements ## 
+## Acknowledgements ## 
 
 - Unity ML Agents at:  https://github.com/Unity-Technologies/ml-agents
 - Imphenzia : Blender Modelling Support: https://www.youtube.com/c/Imphenzia
 - Jason Weimann: Unity and Game Development: https://www.youtube.com/c/Unity3dCollege
 - Immersive Limit: Unity Machine Learning Agents: https://www.youtube.com/c/ImmersiveLimit
+- Original Cyberman Model by bowiesteutel and Lanzaman at: https://sketchfab.com/3d-models/cyberman-b172f58aacea473f8af04c625906f861
