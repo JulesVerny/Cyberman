@@ -8,8 +8,10 @@ Please see the results of the Trained Cyberman Agent, performing reasonably well
 
 The results are rather mixed, interesting but not really up to expectations.  
 
-### Overview
-The Cyberman has to Pick up the Rudium probe from the Yellow Platform, and Place it down at or near the Green reception Platform.  A Dalek is also in the arena, and will kill the Cyberman, if it is within its frontal line os sight.  The Cyberman and Dalek Line of sights are obscured by various walls within the Arena. 
+![ScreenShot](MainScene.PNG)
+
+### Overview of The Cyberman Agent Objectives
+The Cyberman has to Pick up the Rudium probe from the Yellow Platform, and Place it down at or near the Green reception Platform.  A Dalek is also in the arena, and will kill the Cyberman, if it is within its frontal line of sight.  The Cyberman and Dalek Line of sights are obscured by various walls within the Arena. 
 
 ![ScreenShot](General.PNG)
 
