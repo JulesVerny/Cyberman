@@ -4,9 +4,9 @@ A review of Unity ML Agents in an attempt to train an Agent within a wall obscur
 
 This has been inspired by the OpenAI Hide and Seek games. (https://www.vox.com/future-perfect/2019/9/20/20872672/ai-learn-play-hide-and-seek) 
 
-Please see the results of the Trained Cyberman Agent, performing reasonably well at [You Tube]
+Please see the results of the Trained Cyberman Agent, performing reasonably well at https://youtu.be/mcNl2UYhYNA
 
-The results are rather mixed, interesting but not really up to expectations.  
+The results are rather mixed, interesting but not really up to expectations. It does not develop Any effective search and exploration strategy when the Game Objects are Out Of Sight.   
 
 ![ScreenShot](MainScene.PNG)
 
@@ -47,7 +47,7 @@ The GAIL imitation is Trained against a Level 6 environment, where the Dalek is 
 
 ## Conclusions
 
-See the You Tube Video of the performance after 25 Million Training Steps
+See the You Tube Video of the performance after 25 Million Training Steps  at https://youtu.be/mcNl2UYhYNA
 
 The Agent Progressed through the first 8 Levels to reach level 9 within 3.5 Million Training Steps. The ganet failed to get beyond level 11. 
 
@@ -63,7 +63,7 @@ I do not think there is any reasonable way that the RL Agent can or could retain
 
 There was considerable, and frustrating, experimentation with the PPO hyper parameters. There is very little obvious guidance on hyper parameter tunning, and the performance is very sensitve to any minor changes.  Batch and Buffer Sizes were extended and retrated, as was the Time_Horizon, which had major impacts upon  performance.  Despite contary advice, the normalize was set to false, and the Time_horizon reduced, and realtively small batch_size and buffer_sizes eventually used. It took a lot of reward shaping to get any decent performance and influcne some behaviours.  The CyberManConfig file configuration is probably not optimum.    
 
-Happy for Any Dicusssion, Comments and Improvements.
+Happy for Any Discusssion, Comments and Improvements.
 
 ## Download and Use ##
 
