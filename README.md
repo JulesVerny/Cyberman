@@ -1,6 +1,8 @@
 # Unity ML Agent: Cyberman vs Dalek
 
-A review of Unity ML Agents in an attempt to train an Agent within a wall obscured environment. As inspired by the OpenAI Hide and Seek games.
+A review of Unity ML Agents in an attempt to train an Agent within a wall obscured environment. 
+
+This has been inspired by the OpenAI Hide and Seek games. (https://www.vox.com/future-perfect/2019/9/20/20872672/ai-learn-play-hide-and-seek) 
 
 Please see the results of the Trained Cyberman Agent, performing reasonably well at [You Tube]
 
@@ -23,6 +25,10 @@ The Rewards are allocated +1.0f for successfully placing down the Probe, at or n
 
 
 The Dalek is a Unity NavMesh Agent. Which will either move towards a random position or twoards the Cyberman if it sees it within a 60 degree cone in front of him.  In early levels of the Training the Dalek has very slow speeds, will emerge from the North West or North East, and direct itself towards the centre of the Arena, unless it sees the Cyberman.
+
+The game Arena, Cyberman Agent, Dalek and Game Objects are all captured within the GameEnvironment Unity Prefab.So any changes to the Agent should be done within this Prefab. This Prefab was then replicacted into 16x GameEnvironment Game Objects within the Training Scene, for 'faster' Training.  
+
+![ScreenShot](Multiple.PNG)
 
 ### Training 
 The Agent was trained through a Combination of GAIL and Curriculum Learning. 
