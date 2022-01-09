@@ -69,6 +69,13 @@ I have captured and exported a Unity Package the Cyberman Scene, Scripts, Models
 
 I have included the CyberMan.onnx into the Cyberman configuration. So the final Level 11 Performance should be visible upon Unity Game Runs. Note However that you will have to Uncomment Line 59 GameControl.cs script and assign a TestGameLevel for the GameManager Object within the Scene to demonstrate perfomance at the different Training Levels. Since by default the Game Difficulty is read in from the Acadamy.Instance.Environmental Parameters within every Episode Begin() call.  
 
+Note the Default Play, or Hueristic Manual Play (e.g. to record New Demostrations) is Controlled by:
+- Up Arrow Key To Go Foward
+- Right Arrow Key To Turn Right
+- Left Arrow Key to Turn Left
+- T Keyboard Key to Pick Up Probe
+- P Keyboard Key To Place Down Probe 
+
 The CyberManConfig File has been included as a reference how the Agent is Trained through the use of GAIL  Imitation learning, and Curriculum Learning through a set of Lesson Levels.  The Agent code is also explicitly provided here to understand the Observations, Actions and Rewards details. 
 
 ## Acknowledgements ## 
